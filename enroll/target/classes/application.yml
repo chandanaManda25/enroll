@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/springboot"
+    username: enroll
+    password: < your password >
+
+  config:
+    stopBubbling : true
+  lombok:
+    addLombokGeneratedAnnotation: true
